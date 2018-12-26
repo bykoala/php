@@ -1,4 +1,5 @@
-FROM php:7.1-apache
+#FROM php:7.1-apache
+FROM 100.125.35.202:20202/op_svc_servicestage/php:7-apache-int
 
 RUN a2enmod rewrite \
     && mkdir -p /app \

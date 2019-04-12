@@ -1,5 +1,5 @@
-FROM 100.125.5.235:20202/op_svc_servicestage/php:7-apache-int
-
+#FROM 100.125.5.235:20202/op_svc_servicestage/php:7-apache-int
+FROM 100.79.1.215:20202/op_svc_servicestage/php:7-apache-int-1.0
 RUN a2enmod rewrite \
     && mkdir -p /app \
     && rm -fr /var/www/html \
